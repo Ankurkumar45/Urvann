@@ -1,0 +1,352 @@
+[
+  {
+    "name": "Money Plant",
+    "plantURL": "https://i.pinimg.com/1200x/10/04/67/1004675e8c5c17f2d9826bc84b97bf18.jpg",
+    "price": 100,
+    "categories": "Indoor",
+    "inStock": true
+  },
+  {
+    "name": "Areca Palm",
+    "plantURL": "https://i.pinimg.com/736x/a6/5f/59/a65f5928e7a5f2cc755c18c31af0d28f.jpg",
+    "price": 110,
+    "categories": "Outdoor",
+    "inStock": true
+  },
+  {
+    "name": "Snake Plant",
+    "price": 120,
+    "plantURL": "https://i.pinimg.com/1200x/4a/73/d9/4a73d910356e9744ab418a7f1244ad74.jpg",
+    "categories": "Flowering",
+    "inStock": true
+  },
+  {
+    "name": "Peace Lily",
+    "plantURL": "https://i.pinimg.com/736x/68/2d/17/682d17899a57e938d88457b925493e95.jpg",
+    "price": 130,
+    "categories": "Medicinal",
+    "inStock": false
+  },
+  {
+    "name": "Aloe Vera",
+    "plantURL": "https://i.pinimg.com/736x/01/fb/0c/01fb0cac39b29b5aa93513adaf813fbb.jpg",
+    "price": 140,
+    "categories": "Air-Purifying",
+    "inStock": true
+  },
+  {
+    "name": "Jade Plant",
+    "plantURL": "https://i.pinimg.com/736x/e1/97/53/e19753fac5ae91df140547f81deadf6f.jpg",
+    "price": 160,
+    "categories": "Bonsai",
+    "inStock": true
+  },
+  {
+    "name": "Ficus Bonsai",
+    "plantURL": "https://i.pinimg.com/1200x/10/bf/f4/10bff4d5b2e4ddd392033716eedeb8fe.jpg",
+    "price": 170,
+    "categories": "Indoor",
+    "inStock": false
+  },
+  {
+    "name": "Croton",
+    "plantURL": "https://i.pinimg.com/736x/28/e3/25/28e32502880e9a487c1d56d39ecc02b2.jpg",
+    "price": 180,
+    "categories": "Outdoor",
+    "inStock": false
+  },
+  {
+    "name": "Lucky Bamboo",
+    "plantURL": "https://i.pinimg.com/736x/e1/30/d5/e130d5ec6d1bec6ffe583ec4fca5452a.jpg",
+    "price": 190,
+    "categories": "Flowering",
+    "inStock": true
+  },
+  {
+    "name": "Spider Plant",
+    "plantURL": "https://i.pinimg.com/736x/b1/3e/c0/b13ec0592900b6843b59e410543e6dd7.jpg",
+    "price": 200,
+    "categories": "Medicinal",
+    "inStock": true
+  },
+  {
+    "name": "Rubber Plant",
+    "plantURL": "https://i.pinimg.com/736x/d2/93/a9/d293a9e7b85cce60533a76c109fd441e.jpg",
+    "price": 210,
+    "categories": "Air-Purifying",
+    "inStock": true
+  },
+  {
+    "name": "Bougainvillea",
+    "plantURL": "https://i.pinimg.com/1200x/6a/7c/30/6a7c304fc46f3a808ce153c70b887933.jpg",
+    "price": 220,
+    "categories": "Succulent",
+    "inStock": false
+  },
+  {
+    "name": "Hibiscus",
+    "plantURL": "https://i.pinimg.com/1200x/fa/42/0e/fa420ea0055c327d51ca3b939572c114.jpg",
+    "price": 230,
+    "categories": "Bonsai",
+    "inStock": true
+  },
+  {
+    "name": "Rose Plant",
+    "plantURL": "https://i.pinimg.com/736x/fb/f8/bc/fbf8bc0120904fcea5b86a27859369b2.jpg",
+    "price": 240,
+    "categories": "Indoor",
+    "inStock": true
+  },
+  {
+    "name": "Fern",
+    "plantURL": "https://i.pinimg.com/1200x/64/a3/94/64a394403982aaaf99e864f4377a44ef.jpg",
+    "price": 250,
+    "categories": "Outdoor",
+    "inStock": true
+  },
+  {
+    "name": "ZZ Plant",
+    "plantURL": "https://i.pinimg.com/1200x/1e/ab/89/1eab892687112ab002fd19ec91462cdb.jpg",
+    "price": 260,
+    "categories": "Flowering",
+    "inStock": false
+  },
+  {
+    "name": "Cactus Mix",
+    "plantURL": "https://i.pinimg.com/736x/42/8f/18/428f188b83a029039a81479d983b93fc.jpg",
+    "price": 270,
+    "categories": "Medicinal",
+    "inStock": false
+  },
+  {
+    "name": "Chrysanthemum",
+    "plantURL": "https://i.pinimg.com/1200x/ee/e7/91/eee791ec036efdb73f5ee33487192ee6.jpg",
+    "price": 280,
+    "categories": "Air-Purifying",
+    "inStock": true
+  },
+  {
+    "name": "Pothos",
+    "plantURL": "https://i.pinimg.com/1200x/10/04/67/1004675e8c5c17f2d9826bc84b97bf18.jpg",
+    "price": 290,
+    "categories": "Succulent",
+    "inStock": true
+  },
+  {
+    "name": "Bamboo Palm",
+    "plantURL": "https://i.pinimg.com/736x/9b/cb/a7/9bcba7dd5fffb310924ff2d4bf5ea793.jpg",
+    "price": 300,
+    "categories": "Bonsai",
+    "inStock": true
+  },
+  {
+    "name": "Philodendron",
+    "plantURL": "https://i.pinimg.com/1200x/72/53/f1/7253f116e388bdfe0250ff022a9ccad4.jpg",
+    "price": 310,
+    "categories": "Indoor",
+    "inStock": true
+  },
+  {
+    "name": "Anthurium",
+    "plantURL": "https://i.pinimg.com/1200x/92/ff/63/92ff633b36f72cb81b1bb30765e1e8ab.jpg",
+    "price": 320,
+    "categories": "Outdoor",
+    "inStock": false
+  },
+  {
+    "name": "Orchid",
+    "plantURL": "https://i.pinimg.com/736x/ca/e7/60/cae760474ce837a67fb46ce3ae5e5f5c.jpg",
+    "price": 330,
+    "categories": "Flowering",
+    "inStock": false
+  },
+  {
+    "name": "Lavender",
+    "plantURL": "https://i.pinimg.com/1200x/b1/0a/1b/b10a1b259d012716796d63029e9f83c5.jpg",
+    "price": 340,
+    "categories": "Medicinal",
+    "inStock": true
+  },
+  {
+    "name": "Mint Plant",
+    "plantURL": "https://i.pinimg.com/736x/85/b4/3c/85b43cc9e655d965353e89527819d5e1.jpg",
+    "price": 350,
+    "categories": "Air-Purifying",
+    "inStock": true
+  },
+  {
+    "name": "Lemon Balm",
+    "plantURL": "https://i.pinimg.com/736x/f9/f0/9e/f9f09ec3798c6fab9aa4d361fffebf95.jpg",
+    "price": 360,
+    "categories": "Succulent",
+    "inStock": true
+  },
+  {
+    "name": "Basil",
+    "plantURL": "https://i.pinimg.com/736x/0c/f4/77/0cf47719bf91b1578caa18d38d96428f.jpg",
+    "price": 370,
+    "categories": "Bonsai",
+    "inStock": true
+  },
+  {
+    "name": "Marigold",
+    "plantURL": "https://i.pinimg.com/736x/8e/9d/df/8e9ddf831edfc2d9d90567036f1db0d9.jpg",
+    "price": 380,
+    "categories": "Indoor",
+    "inStock": true
+  },
+  {
+    "name": "Sunflower",
+    "plantURL": "https://i.pinimg.com/736x/93/f8/6d/93f86da5f9810ca2e6b9807a58857c24.jpg",
+    "price": 390,
+    "categories": "Outdoor",
+    "inStock": true
+  },
+  {
+    "name": "Dahlia",
+    "plantURL": "https://i.pinimg.com/736x/d7/57/e4/d757e467fb8911088d0229056dd588dc.jpg",
+    "price": 400,
+    "categories": "Flowering",
+    "inStock": false
+  },
+  {
+    "name": "Ixora",
+    "plantURL": "https://i.pinimg.com/1200x/41/62/b6/4162b6d4a2c8986da19f9cb4a164b65b.jpg",
+    "price": 410,
+    "categories": "Medicinal",
+    "inStock": false
+  },
+  {
+    "name": "Coleus",
+    "plantURL": "https://i.pinimg.com/1200x/5a/50/3b/5a503b6a3a6425e80413da82be2fee24.jpg",
+    "price": 420,
+    "categories": "Air-Purifying",
+    "inStock": true
+  },
+  {
+    "name": "Aglaonema",
+    "plantURL": "https://i.pinimg.com/736x/0f/b2/8b/0fb28bd72dcb55a4c0bae59d4ed9a125.jpg",
+    "price": 430,
+    "categories": "Succulent",
+    "inStock": true
+  },
+  {
+    "name": "Schefflera",
+    "plantURL": "https://i.pinimg.com/736x/7d/98/a3/7d98a3135d03195db8b76c3894e10a84.jpg",
+    "price": 440,
+    "categories": "Bonsai",
+    "inStock": true
+  },
+  {
+    "name": "Dieffenbachia",
+    "plantURL": "https://i.pinimg.com/736x/85/30/1f/85301fc072e26e86266619f05647632a.jpg",
+    "price": 450,
+    "categories": "Indoor",
+    "inStock": true
+  },
+  {
+    "name": "Dracaena",
+    "plantURL": "https://i.pinimg.com/736x/99/f4/79/99f479533004737fd0c04c45c87b3862.jpg",
+    "price": 460,
+    "categories": "Outdoor",
+    "inStock": true
+  },
+  {
+    "name": "Kalanchoe",
+    "plantURL": "https://i.pinimg.com/736x/e9/01/76/e90176d4c215753528aa781787e069cb.jpg",
+    "price": 470,
+    "categories": "Flowering",
+    "inStock": false
+  },
+  {
+    "name": "Sedum",
+    "plantURL": "https://i.pinimg.com/1200x/92/24/2b/92242b7489b4dfcfdd2b896136d2a99c.jpg",
+    "price": 480,
+    "categories": "Medicinal",
+    "inStock": true
+  },
+  {
+    "name": "Echeveria",
+    "plantURL": "https://i.pinimg.com/1200x/ab/86/f2/ab86f2264174147fd0c99f228467d9d5.jpg",
+    "price": 490,
+    "categories": "Air-Purifying",
+    "inStock": false
+  },
+  {
+    "name": "Peperomia",
+    "plantURL": "https://i.pinimg.com/1200x/5d/bc/bd/5dbcbd620349f0ae49a53ed38a23d341.jpg",
+    "price": 500,
+    "categories": "Succulent",
+    "inStock": false
+  },
+  {
+    "name": "Succulent Mix",
+    "plantURL": "https://i.pinimg.com/1200x/8a/6d/68/8a6d681741c4f3364affe25fd23f42d0.jpg",
+    "price": 510,
+    "categories": "Bonsai",
+    "inStock": true
+  },
+  {
+    "name": "Adenium",
+    "plantURL": "https://i.pinimg.com/1200x/06/0d/7d/060d7de3517b7fb9a0370b36e6b9a121.jpg",
+    "price": 520,
+    "categories": "Indoor",
+    "inStock": true
+  },
+  {
+    "name": "Fiddle Leaf Fig",
+    "plantURL": "https://i.pinimg.com/1200x/1c/20/53/1c205357736bb979b40389d1e3064891.jpg",
+    "price": 530,
+    "categories": "Outdoor",
+    "inStock": true
+  },
+  {
+    "name": "Boston Fern",
+    "plantURL": "https://i.pinimg.com/1200x/68/90/c7/6890c789a70d8f5442027b6b1841e34e.jpg",
+    "price": 540,
+    "categories": "Flowering",
+    "inStock": true
+  },
+  {
+    "name": "Calathea",
+    "plantURL": "https://i.pinimg.com/736x/d4/d6/93/d4d693fb2acf858bb5ae83a884758610.jpg",
+    "price": 550,
+    "categories": "Medicinal",
+    "inStock": false
+  },
+  {
+    "name": "Syngonium",
+    "plantURL": "https://i.pinimg.com/736x/f8/70/d3/f870d3eb2fd18842a01309cecb0fed03.jpg",
+    "price": 560,
+    "categories": "Air-Purifying",
+    "inStock": true
+  },
+  {
+    "name": "Begonia",
+    "plantURL": "https://i.pinimg.com/1200x/fe/e4/bd/fee4bd3a0809dacf676797622ec04a19.jpg",
+    "price": 570,
+    "categories": "Succulent",
+    "inStock": true
+  },
+  {
+    "name": "Jasmine",
+    "plantURL": "https://i.pinimg.com/736x/64/0b/46/640b46bf723e7f540fb1514f1bd8a4b8.jpg",
+    "price": 580,
+    "categories": "Bonsai",
+    "inStock": true
+  },
+  {
+    "name": "Gardenia",
+    "plantURL": "https://i.pinimg.com/736x/2a/6f/85/2a6f855fd7fe5ec56869d1a83092a0d5.jpg",
+    "price": 590,
+    "categories": "Indoor",
+    "inStock": false
+  },
+  {
+    "name": "Camellia",
+    "plantURL": "https://i.pinimg.com/736x/ac/92/e7/ac92e757cb951c1613041beb6776c6e6.jpg",
+    "price": 100,
+    "categories": "Outdoor",
+    "inStock": true
+  }
+]

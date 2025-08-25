@@ -7,9 +7,15 @@ const authRoutes = require('./routes/auth');
 const app = express();
 dotenv.config();
 
+const allowedOrigins = [
+    'http://localhost:5173',
+    'https://urvann-nxtj.vercel.app'
+]
+
 app.use(cors(
     {
-        origin: process.env.FRONTEND_URL || 'http://localhost:5173'
+        origin: allowedOrigins,
+        credentials: true,
     }
 ));
 app.use(express.json());

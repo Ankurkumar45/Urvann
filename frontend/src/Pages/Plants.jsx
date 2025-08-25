@@ -13,10 +13,9 @@ const Plants = () => {
         setLoading(true);
         axios.get('http://localhost:5000/api/auth/plants')
             .then(res => {
-                // Ensure all plants have required properties
                 const sanitizedPlants = res.data.map(plant => ({
                     ...plant,
-                    categories: plant.categories || [], // Default to empty array if categories is undefined
+                    categories: plant.categories || [],
                     price: plant.price || 0,
                     inStock: typeof plant.inStock === 'boolean' ? plant.inStock : true,
                     plantURL: plant.plantURL || 'https://via.placeholder.com/400x300?text=Plant+Image'
@@ -30,10 +29,8 @@ const Plants = () => {
             .finally(() => setLoading(false));
     }, []);
 
-    // Get unique categories from plants
     const allCategories = [...new Set(plants.flatMap(plant => plant.categories || []))];
 
-    // Filter plants based on search and category
     const filteredPlants = plants.filter(plant => {
         const matchesSearch = plant.name?.toLowerCase().includes(searchQuery.toLowerCase());
         const matchesCategory = !selectedCategory || (plant.categories || []).includes(selectedCategory);
@@ -80,7 +77,7 @@ const Plants = () => {
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
                     {filteredPlants.map((plant) => (
                         <div
-                            key={plant._id} // Changed from plant.id to plant._id for MongoDB
+                            key={plant._id}
                             className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"
                         >
                             <div className='aspect-w-4 aspect-h-3 w-full'>

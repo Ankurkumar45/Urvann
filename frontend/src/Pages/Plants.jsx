@@ -11,7 +11,7 @@ const Plants = () => {
 
     useEffect(() => {
         setLoading(true);
-        axios.get('http://localhost:5000/api/auth/plants')
+        axios.get('https://urvann-mini-plant-store.onrender.com/api/auth/plants')
             .then(res => {
                 const sanitizedPlants = res.data.map(plant => ({
                     ...plant,
@@ -60,7 +60,7 @@ const Plants = () => {
                     Our Plants Collection
                 </h1>
 
-                <SearchFilter 
+                <SearchFilter
                     searchQuery={searchQuery}
                     setSearchQuery={setSearchQuery}
                     selectedCategory={selectedCategory}

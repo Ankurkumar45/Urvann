@@ -63,7 +63,7 @@ export default function AddPlants() {
                 inStock: formData.inStock
             }
 
-            const response = await axios.post("http://localhost:5000/api/auth/add-plant", plantData);
+            const response = await axios.post("https://urvann-mini-plant-store.onrender.com/api/auth/add-plant", plantData);
             console.log('Form submitted:', response.data);
             
             setFormData({

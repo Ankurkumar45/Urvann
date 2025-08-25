@@ -10,13 +10,11 @@ dotenv.config();
 const allowedOrigins = [
     'http://localhost:5173',
     'https://urvann-yo9v.vercel.app',
-    'https://urvann-mini-plant-store.onrender.com'
 ]
 
 app.use(cors(
     {
         origin: allowedOrigins,
-        credentials: true,
         methods: ['GET', 'POST', 'PUT', 'DELETE'],
         allowedHeaders: ['Content-Type', 'Authorization']
     }

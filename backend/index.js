@@ -9,7 +9,7 @@ dotenv.config();
 
 const allowedOrigins = [
     'http://localhost:5173',
-    'https://urvann-nxtj.vercel.app'
+    'https://urvann-yo9v.vercel.app'
 ]
 
 app.use(cors(

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import SearchFilter from '../Components/SearchFilter';
+import API_URL from '../config/api';
 
 const Plants = () => {
     const [plants, setPlants] = useState([]);
@@ -11,7 +12,7 @@ const Plants = () => {
 
     useEffect(() => {
         setLoading(true);
-        axios.get('https://urvann-mini-plant-store.onrender.com/api/auth/plants')
+        axios.get(`${API_URL}/api/auth/plants`)
             .then(res => {
                 const sanitizedPlants = res.data.map(plant => ({
                     ...plant,

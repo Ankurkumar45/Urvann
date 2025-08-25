@@ -1,5 +1,6 @@
 import axios from 'axios';
 import React, { useState } from 'react';
+import API_URL from '../config/api';
 
 export default function AddPlants() {
     const [formData, setFormData] = useState({
@@ -63,7 +64,7 @@ export default function AddPlants() {
                 inStock: formData.inStock
             }
 
-            const response = await axios.post("https://urvann-mini-plant-store.onrender.com/api/auth/add-plant", plantData);
+            const response = await axios.post(`${API_URL}/api/auth/add-plant`, plantData);
             console.log('Form submitted:', response.data);
             
             setFormData({
